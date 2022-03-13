@@ -1,5 +1,7 @@
 # Manhattan Distance Problem
 In this itteration of the problem, a robot picks up the most coins possible from a grid while only moving right and down (aka Manhattan Distance).
+I have found 3 ways to solve the problem:
+> Recursively - Using Dynamic Programing - Recursion with memory
 
 `Input Example`:
 ```
