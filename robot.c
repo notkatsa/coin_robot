@@ -42,5 +42,7 @@ int main(){
     m--;
 // decrease n and m so I can work easier inside solve
     solve(n, m, A);
+    for (j = 0; j<n; j++)
+	    free(A[i]);
     free(A);
 }
