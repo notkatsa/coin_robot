@@ -1,2 +1,21 @@
-# coin_robot
-Bot that picks up the most coins possible Manhattan Distance
+# Manhattan Distance Problem
+In this itteration of the problem, a robot picks up the most coins possible from a grid while only moving right and down (aka Manhattan Distance).
+
+`Input Example`:
+```
+11 12
+.C...CC.C...
+..C.....C...
+CCC.C.CC.C..
+...C....C...
+....CC..C...
+.CC..CCC.C..
+C...C.C.....
+.C....C..C..
+.C...CC.C...
+......C.....
+.C..C....C..
+```
+
+`Output Example`:
+```Path is: .(1,1)/0 C(1,2)/1 --> C(1,3)/2 --> C(1,4)/3 --> C(1,5)/4 --> C(1,6)/5 --> C(1,7)/6 --> .(1,8)/6 --> .(2,8)/6 --> .(3,8)/6 --> .(4,8)/7 --> .(5,8)/7 --> .(6,8)/7 --> .(7,8)/7 --> .(8,8)/8 --> Picked up 8 coins```
